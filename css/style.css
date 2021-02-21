@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:#323232;
+    color: #fff;
+}
+
+
+.header{
+    min-height: 720px;
+    background: #323232;
+    background: url(../imgs/Galaxy/head_bg.png) no-repeat;
+    background-size: cover;
+    width: 80%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.header .one{
+    width:500px;
+    height: 500px;
+    position: relative;
+    top:-300px;
+}
+.header .tow{
+    text-align: right;
+    width:500px;
+    height: 500px;
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+}
+.header h4{
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: -285px;
+}
+
+/* first */
+.first{
+    width: 80%;
+    min-height: 800px;
+    margin:0px auto;
+    padding:100px 50px;
+    background: url(../imgs/Galaxy/first_bg.png) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.first img{
+    width:180px;
+    height: 180px;
+}
+
+/* Venus */
+.Venus{
+    width: 80%;
+    min-height: 800px;
+    margin:0px auto;
+    padding:50px;
+    background: url(../imgs/Galaxy/NicePng_stars-png_13190.png) no-repeat;
+    background-size: cover;
+}
+
+.Venus img{
+    width:415px;
+    height: 415px;
+}
+
+/* Neptune */
+.Neptune{
+    width: 80%;
+    min-height: 930px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/galaxy-png-transparent-19.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.Neptune img{
+    width:850px;
+    height: 850px;
+}
+
+/* Uranus */
+.Uranus{
+    width: 80%;
+    min-height: 800px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/five_bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Uranus img{
+    width: 102rem;
+    height: 70rem;
+}
+
+/* Saturn */
+.Saturn{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/PngItem_785769.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Saturn img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Jupiter */
+.Jupiter{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/five_bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Jupiter img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sun */
+.sun{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/head_bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.sun img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Scuti */
+.Scuti{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/head_bg.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Scuti img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sunuy */
+.sunuy{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/sybg.jpg) no-repeat;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.sunuy img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sunuy */
+.milky{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/milk.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.milky img{
+    width: 100%;
+    height: 100%;
+}
+
+/* billion */
+.billion{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/NicePng_stars-png_13190.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.billion img{
+    width: 50%;
+    height: 50%;
+}
+
+/* obser */
+.obser{
+    width: 80%;
+    min-height: 900px;
+    margin:0px auto;
+    background: url(../imgs/Galaxy/last.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.obser img{
+    width: 100%;
+    height: 100%;
+}
+
+/* menu */
+.menu{
+    width: 80%;
+    margin:0 auto;
+    z-index: 99999;
+}
+.menu a{
+    float: left;
+}
+.menu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.menu .img-box{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.menu img:hover{
+    transform: scale(1.5); 
+}
+
+.top{
+    position: fixed;
+    top: 80%;
+    right: 0;
+    z-index: 999999;
+}
+
+.top img{
+    width: 100px;
+    height: 100px;
+}
+
+.arrow{
+    margin: 0 auto;
+    -webkit-background-size: 220px 220px;
+    -moz-background-size: 220px 220px;
+    background-size: 220px 220px;
+    -webkit-border-radius: 110px;
+    border-radius: 110px;
+    -webkit-transition: -webkit-transform 8s ease-out;
+    -moz-transition: -moz-transform 8s ease-out;
+    -o-transition: -o-transform 8s ease-out;
+    -ms-transition: -ms-transform 8s ease-out;
+  }
+  .arrow:hover{
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
